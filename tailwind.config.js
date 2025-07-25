@@ -1,6 +1,6 @@
-/** @type {import('tailwindcss').Config} */
+/ @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./*.html","./src/**/*.{html,js}"],
+  content: ["./*.html","./src//*.{html,js}"],
   theme: {
     extend: {
       keyframes:{
@@ -27,5 +27,3 @@ module.exports = {
   },
   plugins: [],
 }
-
-
